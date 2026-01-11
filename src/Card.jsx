@@ -1,6 +1,7 @@
 import React from "react";
 
-const Card = ({title, description, imageUrl}) {
+// created a new card component
+const Card = ({title, description, imageUrl}) => {
     return (
         <div style={{
             border: '1px solid #ccc',

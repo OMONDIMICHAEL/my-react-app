@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
+// built a gallary component
 const cardsData = [
     {
         id: 1,
