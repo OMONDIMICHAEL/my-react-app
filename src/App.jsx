@@ -9,7 +9,8 @@ import './App.css'
 // import Toggle from './Toggle';
 // import TextInput from './TextInput';
 // import DataFetcher from './DataFetcher';
-import UserFetcher from './UserFetcher'
+// import UserFetcher from './UserFetcher'
+import TodoList from './TodoList';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -19,13 +20,15 @@ function App() {
       <div>
         {/* <Greeting/> */}
         {/* <h1>useEffect Basics - Data Fetching</h1> */}
-        <h1>useEffect Cleanup & Fetch Real API</h1>
         {/* <Gallery/> */}
         {/* <Counter/>
         <Toggle/>
         <TextInput/> */}
         {/* <DataFetcher/> */}
-        <UserFetcher/>
+        {/* <h1>useEffect Cleanup & Fetch Real API</h1>
+        <UserFetcher/> */}
+        <h1>useReducer - Todo List</h1>
+        <TodoList/>
       </div>
     </>
   );
